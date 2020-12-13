@@ -11,6 +11,6 @@ public class Professor extends Funcionario {
 
     @Override
     public double getSalarioLiquido() {
-        return (getSalarioBruto() - getINSS() - getImpRenda()) * 1.3;
+        return (getSalarioBruto() - getINSS()) * 1.3;
     }
 }
